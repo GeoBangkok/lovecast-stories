@@ -1,0 +1,41 @@
+{
+  "featured": ["robert-craft", "isabella", "midnight-garden"],
+  "trending": ["robert-craft", "city-lights", "ocean-dreams"],
+  "last_updated": "2024-01-15T10:30:00Z",
+  "stories": [
+    {
+      "id": "robert-craft",
+      "title": "Robert Craft",
+      "author": "LoveCast",
+      "description": "When a broke assistant lands a job with New York's most powerful architect...",
+      "genre": "Contemporary Romance",
+      "tags": ["Romance", "Suspense", "Drama", "Contemporary"],
+      "rating": 4.9,
+      "read_count": 125000,
+      "cover_image": "robertcraft.png",
+      "is_complete": false,
+      "date_added": "2024-01-01",
+      "word_count": 25000
+    }
+  ],
+  "genres": [
+    {
+      "name": "Romance",
+      "color": "#FF6B6B",
+      "icon": "heart.fill",
+      "story_ids": ["robert-craft", "isabella"]
+    },
+    {
+      "name": "Fantasy",
+      "color": "#4ECDC4", 
+      "icon": "sparkles",
+      "story_ids": ["midnight-garden"]
+    },
+    {
+      "name": "Mystery",
+      "color": "#45B7D1",
+      "icon": "magnifyingglass",
+      "story_ids": ["isabella"]
+    }
+  ]
+} 

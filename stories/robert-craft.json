@@ -1,0 +1,70 @@
+{
+  "id": "robert-craft",
+  "title": "Robert Craft",
+  "author": "LoveCast",
+  "description": "When a broke assistant lands a job with New York's most powerful architect...",
+  "genre": "Contemporary Romance",
+  "tags": ["Romance", "Suspense", "Drama"],
+  "rating": 4.9,
+  "read_count": 125000,
+  "is_complete": false,
+  "starting_chapter": "intro",
+  "chapters": {
+    "intro": {
+      "id": "intro",
+      "title": "New Beginnings",
+      "location": "New York Office",
+      "paragraphs": [
+        "The elevator doors opened to reveal the most impressive office you'd ever seen.",
+        "Floor-to-ceiling windows offered a breathtaking view of Manhattan.",
+        "This was your chance to start over, to prove yourself."
+      ],
+      "choices": [
+        {
+          "id": "choice1",
+          "text": "Introduce yourself confidently",
+          "emoji": "💪",
+          "description": "Make a bold first impression",
+          "next_chapter": "confident_intro",
+          "background_color": "#007AFF",
+          "border_color": "#0051D0"
+        },
+        {
+          "id": "choice2",
+          "text": "Wait to be addressed",
+          "emoji": "🤐",
+          "description": "Show respect and patience",
+          "next_chapter": "patient_intro",
+          "background_color": "#34C759",
+          "border_color": "#28A745"
+        },
+        {
+          "id": "choice3",
+          "text": "Admire the view",
+          "emoji": "🌆",
+          "description": "Take in the impressive surroundings",
+          "next_chapter": "observant_intro",
+          "background_color": "#FF9500",
+          "border_color": "#E8890C"
+        }
+      ]
+    },
+    "confident_intro": {
+      "id": "confident_intro",
+      "title": "Making an Impression",
+      "location": "Executive Suite",
+      "paragraphs": [
+        "You stride forward with confidence, extending your hand.",
+        "'Hello, Mr. Craft. I'm excited to be working with you.'",
+        "His steel-gray eyes assess you with newfound interest."
+      ],
+      "choices": [
+        {
+          "id": "next1",
+          "text": "Continue the conversation",
+          "next_chapter": "chapter2"
+        }
+      ]
+    }
+  }
+} 
