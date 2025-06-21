@@ -7,15 +7,257 @@
       "id": "robert-craft",
       "title": "Robert Craft",
       "author": "LoveCast",
-      "description": "When a broke assistant lands a job with New York's most powerful architect...",
+      "description": "When a broke assistant lands a job with New York's most powerful architect, she thinks she's climbed out of survival mode. But the higher the floor, the darker the secrets — and Robert Craft doesn't hire without a reason.",
       "genre": "Contemporary Romance",
       "tags": ["Romance", "Suspense", "Drama", "Contemporary"],
       "rating": 4.9,
       "read_count": 125000,
-      "cover_image": "robertcraft.png",
       "is_complete": false,
+      "starting_chapter": "intro",
+      "word_count": 25000,
       "date_added": "2024-01-01",
-      "word_count": 25000
+      "cover_image": "robertcraft.png",
+      "welcome_blurb": "You are about to be thrust into the shadowy world of Robert Craft, where power, seduction, and deadly secrets collide.\n\nYou will be confronted with a series of choices that will determine not just your survival, but who you can trust in a game where everyone has hidden motives.\n\nWill you play it safe or risk everything for the truth? Will you choose loyalty or freedom?",
+      "sequel_poll_enabled": true,
+      "chapters": {
+        "intro": {
+          "id": "intro",
+          "title": "New Beginnings",
+          "location": "New York Office",
+          "paragraphs": [
+            "The elevator doors opened to reveal the most impressive office you'd ever seen.",
+            "Floor-to-ceiling windows offered a breathtaking view of Manhattan, the city sprawling endlessly below like a glittering circuit board.",
+            "This was your chance to start over, to prove yourself.",
+            "The receptionist barely glanced up as you approached. 'Mr. Craft will see you now,' she said, her voice crisp and professional.",
+            "Your heart hammered as you walked toward the massive corner office, each step echoing in the marble-floored hallway."
+          ],
+          "choices": [
+            {
+              "id": "choice1",
+              "text": "Introduce yourself confidently",
+              "emoji": "💪",
+              "description": "Make a bold first impression",
+              "next_chapter": "confident_intro",
+              "background_color": "#007AFF",
+              "border_color": "#0051D0"
+            },
+            {
+              "id": "choice2", 
+              "text": "Wait to be addressed",
+              "emoji": "🤐",
+              "description": "Show respect and patience",
+              "next_chapter": "patient_intro",
+              "background_color": "#34C759",
+              "border_color": "#28A745"
+            },
+            {
+              "id": "choice3",
+              "text": "Admire the view",
+              "emoji": "🌆",
+              "description": "Take in the impressive surroundings",
+              "next_chapter": "observant_intro",
+              "background_color": "#FF9500",
+              "border_color": "#E8890C"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "confident_intro": {
+          "id": "confident_intro",
+          "title": "Making an Impression",
+          "location": "Executive Suite",
+          "paragraphs": [
+            "You stride forward with confidence, extending your hand toward the man behind the massive mahogany desk.",
+            "'Hello, Mr. Craft. I'm excited to be working with you.'",
+            "He looks up from his documents, steel-gray eyes assessing you with newfound interest.",
+            "Robert Craft is younger than you expected, maybe early thirties, with the kind of sharp features that belong on magazine covers rather than construction sites.",
+            "He sets down his pen and stands, towering over you as he accepts your handshake.",
+            "'Bold,' he says, his voice a low rumble. 'I like that. Most people are intimidated before they even walk through the door.'"
+          ],
+          "choices": [
+            {
+              "id": "next1",
+              "text": "Continue the conversation",
+              "emoji": "💼",
+              "description": "Press your advantage",
+              "next_chapter": "chapter2",
+              "background_color": "#007AFF",
+              "border_color": "#0051D0"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "patient_intro": {
+          "id": "patient_intro",
+          "title": "Respectful Approach",
+          "location": "Executive Suite", 
+          "paragraphs": [
+            "You stand quietly near the door, hands clasped behind your back, waiting for acknowledgment.",
+            "The man behind the desk continues working for several long moments, the scratch of his pen the only sound in the vast office.",
+            "Finally, he looks up, steel-gray eyes meeting yours with an unreadable expression.",
+            "Robert Craft is younger than you expected, but there's something ancient in his gaze, like he's seen more than his years should allow.",
+            "'Patient,' he observes, leaning back in his chair. 'That's rarer than you might think in this city.'"
+          ],
+          "choices": [
+            {
+              "id": "next2",
+              "text": "Continue the conversation", 
+              "emoji": "💼",
+              "description": "Maintain your composure",
+              "next_chapter": "chapter2",
+              "background_color": "#34C759",
+              "border_color": "#28A745"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "observant_intro": {
+          "id": "observant_intro",
+          "title": "Taking It All In",
+          "location": "Executive Suite",
+          "paragraphs": [
+            "Your gaze drifts to the floor-to-ceiling windows, captivated by the sprawling cityscape below.",
+            "From this height, the people look like ants, the cars like toys. It's a god's-eye view of Manhattan.",
+            "'Impressive, isn't it?' a voice says behind you.",
+            "You turn to find Robert Craft approaching, his footsteps silent on the plush carpet.",
+            "He's younger than you expected, with sharp features and steel-gray eyes that seem to catalog every detail about you.",
+            "'The view changes you,' he continues, stopping beside you. 'Makes you realize how small most problems really are.'"
+          ],
+          "choices": [
+            {
+              "id": "next3",
+              "text": "Continue the conversation",
+              "emoji": "💼", 
+              "description": "Engage with his philosophy",
+              "next_chapter": "chapter2",
+              "background_color": "#FF9500",
+              "border_color": "#E8890C"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "chapter2": {
+          "id": "chapter2",
+          "title": "The Assignment",
+          "location": "Robert's Office",
+          "paragraphs": [
+            "Robert gestures to the leather chair across from his desk. 'Sit. We need to discuss your role here.'",
+            "You settle into the chair, acutely aware of how he studies your every movement.",
+            "'Your predecessor left... unexpectedly,' he says, his tone carefully neutral. 'I need someone I can trust implicitly.'",
+            "There's something in his voice that makes your skin prickle with awareness.",
+            "'The work isn't just administrative. You'll be handling sensitive information, attending private meetings, making decisions that affect millions of dollars.'",
+            "He leans forward, his intense gaze never leaving yours.",
+            "'The question is: can I trust you with my secrets?'"
+          ],
+          "choices": [
+            {
+              "id": "trust_choice",
+              "text": "\"You can trust me completely\"",
+              "emoji": "🤝",
+              "description": "Give him your full commitment",
+              "next_chapter": "chapter3_trust",
+              "background_color": "#007AFF",
+              "border_color": "#0051D0"
+            },
+            {
+              "id": "cautious_choice",
+              "text": "\"That depends on what the secrets are\"",
+              "emoji": "🤔",
+              "description": "Show you're not naive",
+              "next_chapter": "chapter3_cautious",
+              "background_color": "#FF9500", 
+              "border_color": "#E8890C"
+            },
+            {
+              "id": "flirt_choice",
+              "text": "\"What kind of secrets?\"",
+              "emoji": "😏",
+              "description": "Add a hint of intrigue",
+              "next_chapter": "chapter3_flirt",
+              "background_color": "#FF6B6B",
+              "border_color": "#FF4757"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "chapter3_trust": {
+          "id": "chapter3_trust",
+          "title": "Complete Commitment",
+          "location": "Robert's Office",
+          "paragraphs": [
+            "Your answer seems to satisfy something in him. His shoulders relax slightly, though his eyes remain intense.",
+            "'Good,' he says, standing and moving to the window. 'Because once you're in, there's no going back.'",
+            "The weight of his words settles over you like a heavy cloak.",
+            "'I'll be honest with you,' he continues, not turning around. 'My business... it operates in gray areas. Nothing illegal, but not everything is black and white either.'",
+            "He turns back to face you, and there's something almost vulnerable in his expression.",
+            "'I need someone who won't run when things get complicated. Someone who can handle pressure... and keep their mouth shut.'"
+          ],
+          "choices": [
+            {
+              "id": "end_choice",
+              "text": "\"I understand. I'm ready.\"",
+              "emoji": "💼",
+              "description": "Seal your commitment",
+              "next_chapter": "ending_committed",
+              "background_color": "#007AFF",
+              "border_color": "#0051D0"
+            }
+          ],
+          "is_ending": false,
+          "next_chapter": null
+        },
+        "ending_committed": {
+          "id": "ending_committed", 
+          "title": "The Pact",
+          "location": "Robert's Office",
+          "paragraphs": [
+            "Robert nods slowly, a ghost of a smile playing at his lips.",
+            "'Then welcome to Craft Enterprises,' he says, extending his hand.",
+            "When you shake it, his grip is firm, possessive almost.",
+            "'Your first task starts tomorrow. We're acquiring a company that doesn't want to be acquired. It's going to get... intense.'",
+            "As you stand to leave, he catches your wrist gently.",
+            "'One more thing,' he says, his voice dropping to barely above a whisper. 'In this business, trust is everything. Betray me, and you'll discover just how high these windows really are.'",
+            "The threat should terrify you. Instead, it sends a thrill through your veins.",
+            "You're in Robert Craft's world now. And there's no turning back."
+          ],
+          "choices": [],
+          "is_ending": true,
+          "next_chapter": null
+        }
+      }
+    },
+    {
+      "id": "isabella",
+      "title": "Isabella",
+      "author": "LoveCast", 
+      "description": "In the vibrant streets of Lisbon, Isabella finds herself caught between desire and danger, where every choice pulls her deeper into a web of passion and betrayal.",
+      "genre": "Romance",
+      "tags": ["Romance", "International", "Mystery"],
+      "rating": 4.7,
+      "read_count": 98000,
+      "cover_image": "isabella.png",
+      "is_complete": true,
+      "date_added": "2024-01-05",
+      "word_count": 22000
+    },
+    {
+      "id": "midnight-garden",
+      "title": "Midnight Garden",
+      "author": "LoveCast",
+      "description": "When the moon is full and the garden calls, some secrets are worth risking everything for.",
+      "genre": "Fantasy",
+      "tags": ["Fantasy", "Romance", "Supernatural"],
+      "rating": 4.8,
+      "read_count": 87000,
+      "cover_image": "midnight-garden.png", 
+      "is_complete": false,
+      "date_added": "2024-01-10",
+      "word_count": 18000
     }
   ],
   "genres": [
@@ -36,6 +278,12 @@
       "color": "#45B7D1",
       "icon": "magnifyingglass",
       "story_ids": ["isabella"]
+    },
+    {
+      "name": "Contemporary Romance",
+      "color": "#FF9500",
+      "icon": "building.2.fill",
+      "story_ids": ["robert-craft"]
     }
   ]
-} 
+}
